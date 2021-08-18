@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------------------------------Inicio styles----------------------------------------------------------------------------------------- */
+
+
+#content{
+    background: url("https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/gallery/59a9469e5bafe86b2d3c9876/hamburguesa-ppal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    height: 6vh;
+    background: rgba(5, 7, 12,0.40);
+    color: white;
+    font-size: 24px;
+}
+
+.menu-items{
+    display: flex;
+
+}
+
+.a-nav-link{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.a-nav-link:hover{
+    color: red;
+    transition: .4s;
+}
+
+
+li{
+    list-style: none;
+}
+
+.chile{
+    width: 25px;
+    margin: 0;
+}
+
+.plantilla{
+    width: 50%;
+    height: 90%;
+    margin: 20px auto 20px auto;
+    background: rgba(5, 7, 12,0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+    .plantillaP{
+        text-align: justify;
+        font-size: 24px;
+        margin: 15px;
+        
+    } 
+
+h5{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.orderBtn{
+    width: 250px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.orderBtn:hover{
+    color: red;
+    transition: .4s;
+}
+
+
+/* ---------------------------------------------------------------------------------------menu styles----------------------------------------------------------------------------------------- */
+
+.subplantilla{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.item-menu{
+    width: 30%;
+    height: 30%;
+    
+    color: rgb(255, 0, 0);
+    border-radius: 2px;
+    
+}
+
+.item-menu:hover{
+    transition: .4s;
+    border: 1px solid red;
+}
+
+
+.img-item-menu{
+    padding-top: 5px;
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: 85%;
+    border-radius: 25px;
+}
+
+.subtexto-item-menu{
+    font-size: 20px;
+    color: red;
+}
+
+
+/*--------------------------------------------------------------------------contacto secction------------------------------------------------------------------------------------------------*/
+
+.p-contacto{
+    font-size: 34px;
+    margin: 6.25rem auto ;
+}
+
+span{
+    width: 6.25em;
+    height: 6.25em;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2.5em;
+}
+
+
+span:hover{
+    color: red;
+    transition: .4s ;
+}
+
+.grass{
+    margin-top: 3.125rem;
+}
